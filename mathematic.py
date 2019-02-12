@@ -1,4 +1,12 @@
 
+def max(arr):
+    max = 0
+    for i in arr:
+        if i > max:
+            max = i
+    return max
+
+
 def fabs(x):
     if x < 0:
         x = -x
